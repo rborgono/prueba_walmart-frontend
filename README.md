@@ -1,2 +1,11 @@
 # prueba_walmart-frontend
-Frontend de aplicación de prueba para Walmart
+
+Para instalar el proyecto:
+```sh
+npm install
+```
+
+Para levantar el servidor:
+```sh
+npm start
+```

@@ -1,0 +1,28 @@
+<h2>Resultado de la búsqueda</h2>
+<div class="divWidthTable">
+    <input type="text" class="form-control inputBuscar" placeholder="Buscar..." name="filterProduct"/>
+</div>
+<div class="listTable">
+    <div *ngFor="let product of products">
+        <table class="table" width="50%">
+            <tbody>
+                <tr>
+                    <td class="nowrap" colspan="2"><img src="https://{{product.image}}" width="200"></td>
+                </tr>
+                <tr>
+                    <td class="nowrap">{{product.brand}}</td>
+                    <td class="nowrap">{{product.description}}</td>
+                </tr>
+                <tr>
+                    <td class="nowrap">$ {{product.priceWithDiscount}}</td>
+                    <td class="nowrap">
+                        <div *ngIf="product.discount === 50">50 %</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" height="10">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

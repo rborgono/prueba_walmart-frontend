@@ -1,0 +1,116 @@
+/* You can add global styles to this file, and also import other style files */
+a { cursor: pointer }
+
+.app-container {
+    min-height: 320px;
+    overflow: hidden;
+}
+
+.btn-delete-user {
+    width: 48px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.nowrap {
+    white-space:nowrap;
+}
+
+.listTable {
+    height: 460px;
+    width: 1200px;
+    overflow-x: unset;
+    overflow-y: auto;
+}
+
+.buttonDelete {
+    box-sizing: border-box;
+    margin-left: 11px;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 0 !important;
+}
+
+.divAlert{
+    height: 40px;
+}
+
+.divTopAlert{
+    height: 15px;
+}
+
+.divBottomAlert{
+    height: 10px;
+}
+
+
+.divContainerAlert {
+    margin-top: 0px !important;
+    border-top: 0px !important;
+    margin-bottom: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.menuHeader{
+    background: #252525 !important;;
+}
+
+.modal-button {
+    background-color: #E65400 !important;
+    color: #fff !important;
+    border: 0;
+    font-weight: 600;
+    padding: 7px 10px;
+    vertical-align: top;
+    border-radius: 0 !important;
+}
+
+.modal-button:hover{
+  background-color: #fff !important;
+  color: #E65400 !important;
+}
+
+.modal-button-delete {
+    background-color: #606060 !important;
+    color: #fff !important;
+    border: 0;
+    font-weight: 600;
+    padding: 7px 10px;
+    vertical-align: top;
+    border-radius: 0 !important;
+}
+
+.modal-button-delete:hover{
+    background-color: #fff !important;
+    color: #606060 !important;
+  }
+
+.modal-button:focus, .modal-button-delete:focus, .buttonDelete:focus {
+    box-shadow: none!important;
+}
+
+.imgLogo {
+    width: 50px;
+}
+
+.divLogo {
+   padding-right: 15px;
+   padding-bottom: 5px; 
+}
+
+.aLink {
+    margin-left: 8px;
+}
+
+.btnAgregar{
+    float: right;
+}
+
+.inputBuscar{
+    float: left;
+    width: 450px;
+}
+
+.divWidthTable {
+    width: 1200px;
+}
